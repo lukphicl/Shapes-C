@@ -21,7 +21,7 @@ public:
         cout << "Rectangle created" << endl;
     }
     virtual ~Rectangle() {cout << "Rectangle destroyed" << endl;}
-    //virtual void draw() {cout << "Rectangle area: " << (length*width);}
+    virtual void draw() {cout << "Rectangle area: " << (length*width) << endl;}
     
 private:
     int length;

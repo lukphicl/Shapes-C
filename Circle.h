@@ -20,7 +20,7 @@ public:
         cout << "Circle created" << endl;
     }
     virtual ~Circle() {cout << "Circle destroyed" << endl;}
-    //virtual void draw() {cout << "Circle area: " << (radius*3.14) << endl;}
+    virtual void draw() {cout << "Circle area: " << (radius*3.14) << endl;}
     
 private:
     int radius;

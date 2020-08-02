@@ -13,7 +13,7 @@ class Shape {
 public:
     Shape() {cout << "Shape created." << endl;}
     virtual ~Shape() {cout << "Shape destroyed." << endl;}
-    //virtual void draw(Drawer*) = 0;
+    virtual void draw() = 0;
 };
 
 
