@@ -18,6 +18,9 @@ int main(int argc, const char * argv[]) {
     Rectangle *m_Rectangle = new Rectangle(3,4);
     Circle *m_Circle = new Circle(5);
     
+    delete m_Circle;
+    delete m_Rectangle;
+    
     
     return 0;
 }

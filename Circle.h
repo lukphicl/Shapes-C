@@ -27,19 +27,3 @@ private:
 };
 
 #endif /* Circle_h */
-
-/*
- class Rectangle: public Shape {
-     Rectangle() {cout << "Default Rectangle created" << endl;}
-     Rectangle(int rLength, int rWidth) {
-         length = rLength;
-         width = rWidth;
-         cout << "Rectangle created" << endl;
-     }
-     virtual ~Rectangle() {cout << "Rectangle destroyed" << endl;}
-     virtual void draw() {cout << "Rectangle area: " << (length*width);}
-     
- private: int length;
- private: int width;
- };
- */
